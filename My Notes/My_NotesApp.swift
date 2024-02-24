@@ -1,17 +1,19 @@
 //
 //  My_NotesApp.swift
-//  My Notes
+//  ToDo
 //
-//  Created by Tyler LeFevre on 2/23/24.
+//  Created by Tyler LeFevre on 2/22/24.
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct My_NotesApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+   var body: some Scene {
+       WindowGroup {
+           ContentView()
+               .modelContainer(for: NoteItem.self)
+       }
+   }
 }
