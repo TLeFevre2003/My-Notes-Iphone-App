@@ -81,14 +81,12 @@ struct ContentView: View {
     }
     
     private func deleteItem(_ item: NoteItem) {
-        // Implement your deletion logic here
-        // For example:
         context.delete(item)
         try? context.save()
     }
     
     private func longPressToDelete(_ item: NoteItem) -> some Gesture {
-        LongPressGesture(minimumDuration: 1.0) // Customize duration as per your requirement
+        LongPressGesture(minimumDuration: 1.0)
             .onEnded { _ in
                 deleteItem(item)
             }

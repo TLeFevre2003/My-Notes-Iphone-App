@@ -25,6 +25,7 @@
 		F08130542B899B3B00BC920D /* NoteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteItem.swift; sourceTree = "<group>"; };
 		F08130562B899B6600BC920D /* CreateNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNote.swift; sourceTree = "<group>"; };
 		F08130582B899B7C00BC920D /* WriteNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteNote.swift; sourceTree = "<group>"; };
+		F081305A2B89C0AD00BC920D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		F081303A2B899B1600BC920D = {
 			isa = PBXGroup;
 			children = (
+				F081305A2B89C0AD00BC920D /* README.md */,
 				F08130452B899B1600BC920D /* My Notes */,
 				F08130442B899B1600BC920D /* Products */,
 			);
